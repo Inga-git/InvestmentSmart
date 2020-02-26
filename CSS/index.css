@@ -1,0 +1,33 @@
+body{
+  margin: 0 auto;
+  height: 100%;
+}
+.top{
+  display: inline-grid;
+  align-items: center;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-column-gap: 300px;
+  padding: 10px;
+  background: #09071C;
+  color: white;
+  width: 100%
+}
+.navigation ul{
+list-style: none;
+text-align: center;
+margin: -45px;
+padding-bottom: : 15px;
+}
+.navigation ul li{
+  display: inline-grid;
+  margin: 10px;
+}
+.navigation ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.header{
+  width: 100%;
+}
